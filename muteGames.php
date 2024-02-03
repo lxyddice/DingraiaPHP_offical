@@ -1,4 +1,8 @@
 <?php
+# 插件：禁言游戏合集
+# 作者：@lxyddice
+# 版本：v1.0
+# DingraiaPHP官方插件 https://github.com/lxyddice/DingraiaPHP_offical/edit/main/muteGames.php
 if (!file_exists("data/muteGames/data.json")) {
     mkdir("data/muteGames", 0777, true);
     file_put_contents("data/muteGames/data.json", "[]");
