@@ -1,5 +1,9 @@
 <?php
-# 接入茉莉云机器人
+# 插件：茉莉云机器人
+# 作者：@lxyddice
+# 版本：v1.0
+# DingraiaPHP官方插件 https://github.com/lxyddice/DingraiaPHP_offical/blob/main/moliyun.php
+
 if (!file_exists("data/moliyun/key.json")) {
     mkdir("data/moliyun", 0777, true);
     file_put_contents("data/moliyun/key.json", json_encode(["ApiKey"=>"","ApiSecret"=>""]));
