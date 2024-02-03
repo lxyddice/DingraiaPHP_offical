@@ -11,6 +11,10 @@ if (!file_exists("data/bot/helps/autoReply.json")) {
     file_put_contents("data/bot/helps/autoReply.json", json_encode(["start"=>"ar", "name"=>"自定义回复", "info"=>"自定义机器人回复，作者：lxyddice", "help"=>"/自定义回复 学习 #<收到的内容>#<回复>~# 精确/模糊  学习一个自定义回复\n\n/自定义回复 删除 #你好#  删除一个自定义回复\n\n/自定义回复 列表  查看自定义回复列表", "version"=>"v1.0"]));
 }
 if (strpos($globalmessage, "/自定义回复") === 0) {
+    if (!permission_check("autoReply", $guserarr["uid"])) {
+        send_message("你没有权限使用自定义回复！", $webhook, $staffid);
+        exit();
+    }
     $command = explode(" ", $globalmessage)[1];
     if ($command == "学习") {
         $content = explode(" ", $globalmessage)[2];
