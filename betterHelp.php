@@ -2,7 +2,7 @@
 # 插件：更好的帮助
 # 作者：@lxyddice
 # 版本：v1.0
-# DingraiaPHP官方插件 https://https://github.com/lxyddice/DingraiaPHP_offical/blob/main/betterHelp.php
+# DingraiaPHP官方插件 https://github.com/lxyddice/DingraiaPHP_offical/blob/main/betterHelp.php
 
 if (!file_exists("data/bot/helps/betterHelp.json")) {
     file_put_contents("data/bot/helps/betterHelp.json", json_encode(["help"=>""]));
