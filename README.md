@@ -6,7 +6,7 @@
 
 # 这是什么~？
 
-DingraiaPHP官方插件库，欢迎研究or使用~
+[DingraiaPHP](https://github.com/lxyddice/DingraiaPHP)官方插件库，欢迎研究or使用~
 
 查阅 https://doc.lxyddice.top/dingraiaphp/dingraiaphp/guan-fang-cha-jian 使用文档~
 
