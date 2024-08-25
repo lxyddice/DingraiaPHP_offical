@@ -12,3 +12,8 @@
 
 如果喜欢，请给我个star，谢谢喵！
 
+# 使用帮助
+
+## 茉莉云机器人 com.lxyddice.moliyun.php
+
+安装后运行一次框架，在data/moliyun/key.json配置Appkey和AppSecret
