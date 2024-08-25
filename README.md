@@ -1,9 +1,5 @@
 # DingraiaPHP_offical
 
-# 前排提示！！！
-
-最近修改了很多插件的使用逻辑，Github可能不是最新的！请查阅 https://doc.lxyddice.top/dingraiaphp/dingraiaphp/cha-jian-she-qu/cha-jian-she-qu
-
 # 这是什么~？
 
 [DingraiaPHP](https://github.com/lxyddice/DingraiaPHP)官方插件库，欢迎研究or使用~
